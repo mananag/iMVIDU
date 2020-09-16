@@ -1,4 +1,4 @@
- q import React from 'react'
+import React from 'react'
 
 const Option = (props) => {
     return (

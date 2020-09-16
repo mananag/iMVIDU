@@ -3,7 +3,7 @@ import Header from "./Header";
 import Options from "./Options";
 import AddOptions from "./AddOptions";
 
-export default class IndecisionApp extends React.Component {
+export default class Imvdu extends React.Component {
     state = {
         options: []
     }

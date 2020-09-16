@@ -3,8 +3,13 @@
   background-color: $off-black;
   margin-bottom: 4.8rem;
   color: aliceblue;
-  padding: $m-size 0;
+  padding: $m-size ;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  justify-content: space-between;
   h1 {
+    font-family: Century Gothic;
     font-size: 3.2rem;
     margin: 0;
   }
@@ -13,5 +18,18 @@
     font-size: $m-size;
     font-weight: 500;
     margin: 0;
+  }
+  .container{
+    margin: 0;
+  }
+  .userContainer{
+    display: flex;
+    align-items: center;
+    img{
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
   }
 }
