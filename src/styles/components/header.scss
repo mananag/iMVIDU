@@ -1,0 +1,17 @@
+@import "../common/settings";
+.header{
+  background-color: $off-black;
+  margin-bottom: 4.8rem;
+  color: aliceblue;
+  padding: $m-size 0;
+  h1 {
+    font-size: 3.2rem;
+    margin: 0;
+  }
+  h2 {
+    color: $off-white;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+  }
+}
